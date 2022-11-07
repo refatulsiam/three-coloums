@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;}
+/* no space */
+.wrapper{
+    width: 960;
+    margin: 50px auto;
+    
+}
+.box img{
+    height: 180px;
+    width: 300px;
+    
+}
+.box h2{
+    color: blue;
+}
+.box p{
+    text-align: justify;
+    
+    
+}
+.box{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.nomrgn{
+    margin-right: 0px;
+}
+
+.box a{
+    text-decoration: none;
+    background-color: orange;
+    color: red;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 3px 0;
+    transition: all 1s ease;
+}
+.box a:hover{
+    text-decoration: none;
+    background-color:#000;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    
+}
